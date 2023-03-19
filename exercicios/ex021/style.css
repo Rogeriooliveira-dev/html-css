@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: rgba(231, 103, 56, 0.781);
+}
+h1 {
+    background-image: linear-gradient(to bottom, rgb(226, 70, 14), rgba(255, 127, 80, 0.568));
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Bangers', cursive;
+    width: 100%;
+    margin-top: 0;
+    padding: 30px;
+  }
+
+ a {
+    background-color: rgb(245, 114, 66);
+    padding: 10px;
+    left: 20px;
+    border-radius: 20px 0px;
+    cursor: pointer;
+
+ }
+
+ a:hover {
+     color: red;
+     
+ }
+
+ 
+button.cx  {
+   position: absolute;
+   border: none;
+   background: none;
+   left: 10px;
+
+}
+
+ p { 
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+
+ }
+ #assuntos {
+    text-align: justify;
+    text-indent: 30px;
+
+ }
+ #noticias {
+     text-align: justify;
+     text-indent: 30px;
+ }
+
+ footer {
+    background-color: rgb(243, 111, 63);
+    position: relative;
+    text-align: center;
+    border-radius: 20px 0px;
+    line-height: 50px;
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+ }
+ footer:hover {
+    color: red;
+ }

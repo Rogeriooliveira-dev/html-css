@@ -1,0 +1,46 @@
+@charset "UTF8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+
+* {
+    
+    font-family: 'Marcellus', serif;
+
+
+}
+
+body {
+    background-image: linear-gradient(blue, lightblue);
+    position: relative;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    padding: 20px;   
+
+}
+
+div  {
+    background-image: linear-gradient(aqua, blue);
+    box-shadow: 5px 5px 5px blue;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    
+
+}
+
+div botton ul li {
+    display: flex;
+    text-align: center
+
+}
+
+.principal {
+    color: blue;
+    text-shadow: 1px 1px 2px rgb(28, 28, 155);
+
+}

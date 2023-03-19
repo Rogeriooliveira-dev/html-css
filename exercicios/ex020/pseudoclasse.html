@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+ 
+     <style>
+        div { 
+            display: inline-block;
+            background-color: lightgrey;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            border: 1px solid black;
+        }
+       div:hover {
+        background-color: yellow;
+        cursor: pointer;
+       }
+     div.hover:hover {
+        position: absolute;
+        background-color: aqua;
+        color: blue;
+        
+     }
+   
+     div.hover:hover > p {
+          display: block;
+         
+
+          
+     }
+     div > p {
+        position: absolute;
+        display: none;
+        background-color: blueviolet;
+        border: 1px solid black;
+        left: 210px;
+        top: -18px;
+        transform: translateY(50% -50%);
+        width: 200px;
+        height: 200px;
+     }
+
+     div#d2:hover {
+        background-color: rgba(236, 75, 16, 0.795);
+
+     }
+     div#d3:hover {
+         background-color: violet;   
+     }
+
+
+
+     
+     </style>
+
+
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <h1>Exemplo de Hover</h1>
+     <p>Passe o mouse sobre o texto abaixo</p>
+
+     <div class="hover">
+        passe o mouse aqui.
+        <p>texto escondido...</p>
+     </div>
+
+</body>
+</html>

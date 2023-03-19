@@ -1,0 +1,9 @@
+@charset "UTF8";
+
+body {
+    background-color: black;
+}
+h1,div {
+      color: white;
+      text-align: center;
+ }
