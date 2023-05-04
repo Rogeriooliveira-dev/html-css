@@ -4,9 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
     background-color: var(--cor0);
-    color: var(--cor1);
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -14,6 +17,38 @@ header {
 }
 header >h1 {
     font-family: var(--fonte2);
-    font-size: 3em;
+    color: var(--cor1);
+    font-size: 4em;
     font-variant: small-caps;
+    font-weight: bolder;
+}
+header >p {
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+    color: darkgray;
+}
+header >p >a {
+    color: var(--cor1);
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: underline;
+ 
+}
+section {
+    font-family: var(--fonte1);
+    line-height: 3em;
+    padding-left: 30px;
+
+}
+section >p {
+    font-size: 2em;
+    
+    
+}
+
+section.banner {
+    background-color: darkgray;
+    
 }
