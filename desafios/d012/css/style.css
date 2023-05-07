@@ -11,29 +11,30 @@ html, body {
 header {
     background-color: var(--cor0);
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0px 50px 0px;
 
 }
 header >h1 {
     font-family: var(--fonte2);
     color: var(--cor1);
-    font-size: 4em;
+    font-size: 4.5em;
     font-variant: small-caps;
     font-weight: bolder;
 }
 header >p {
     font-family: var(--fonte2);
     font-size: 1.5em;
-    color: darkgray;
+    color: var(--cor3);
 }
 header >p >a {
     color: var(--cor1);
     text-decoration: none;
+    font-style: italic;
 
 }
 a:hover {
     text-decoration: underline;
+  
  
 }
 section {
@@ -44,11 +45,30 @@ section {
 }
 section >p {
     font-size: 2em;
-    
-    
+    padding: 10vh 0px 10vh 10px;
+
 }
 
 section.banner {
-    background-color: darkgray;
-    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px var(--cor0);
+}
+section.banner >p {
+    display: inline-block;
+    background-color: var(--cor4);
+    color: var(--cor1);
+    text-shadow: 1px 1px 0px var(--cor0);
+    width: 400px;
+
+}
+section.banner#b1 {
+    background-image: url(../imagens/background001.jpg);
+
+}
+section.banner#b2 {
+    background-image: url(../imagens/background002.jpg);
+     
 }
