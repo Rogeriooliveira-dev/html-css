@@ -9,27 +9,52 @@
         body {
             font-family: Arial, Helvetica, sans-serif
         }
+        h1 {
+            font-family:'Times New Roman', Times, serif;
+            margin-left: 100px;
+        }
+        .cnome {
+            background-color: blue;
+        }
+        
         table {
             width: 500px;
             border-collapse: collapse;
+            text-align: center;
+            color: #fff;
+            
         }
         caption {
             font-size: 1.3em;
             font-weight: bolder;
             padding: 5px;
         }
+        .cap {
+            color: #000;
+            font-style: italic;
+            text-decoration: underline;
+        }
         th, td {
             border: 1px solid #000000;
+        }
+        .text {
+            color: #fff;
         }
     </style>
 </head>
 <body>
     <h1>Exercícios de Tabela</h1>
     <table>
-        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="cnome" span="4">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissão">
+        </colgroup>
+        <caption class="cap">Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
-            <th scope="col">sexo</th>
+            <th scope="col" class="text">sexo</th>
             <th scope="col">Idade</th>
             <th scope="col">Profissão</th>
         </tr>
